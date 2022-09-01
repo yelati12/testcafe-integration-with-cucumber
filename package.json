@@ -1,0 +1,23 @@
+{
+  "name": "test_automation",
+  "version": "1.0.0",
+  "description": "TestAutomation Using Testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "testcafe chrome Pageobjectmodel/test/*.js --skip-js-erros --qr-code",
+    "test2": "testcafe remote Pageobjectmodel/test/*.js --qr-code"
+  },
+  "author": "Sachin Yelati",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "node_module": "^0.0.0",
+    "saucectl": "^0.105.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.2",
+    "cucumber": "^6.0.7",
+    "testcafe": "^2.0.0"
+  }
+}

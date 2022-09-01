@@ -1,0 +1,11 @@
+Sauce TestCafe Runner 1.4.0
+Preparing npm environment
+ERROR Could not find test files at the following location: "/Volumes/Sauce/saucectl-runners/sauce-testcafe-runner/1.4.0/bundle/__project__".
+Check patterns for errors:
+
+null
+
+or launch TestCafe from a different directory.
+For more information on how to specify test locations, see https://testcafe.io/documentation/402639/reference/command-line-interface#file-pathglob-pattern.
+
+Type "testcafe -h" for help.

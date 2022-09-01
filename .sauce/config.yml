@@ -1,0 +1,21 @@
+apiVersion: v1alpha
+kind: testcafe
+showConsoleLog: false
+sauce:
+  region: eu-central-1
+  concurrency: 26
+  sauceignore: .sauceignore
+suites:
+- name: testcafe - macos 11.00 - safari
+  browserName: safari
+  platformName: macos 11.00
+  mode: sauce
+testcafe:
+  version: 1.20.0
+rootDir: .
+artifacts:
+  download:
+    match:
+    - '*'
+    when: always
+    directory: ./artifacts
